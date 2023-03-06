@@ -4,6 +4,7 @@ import "./Home.scss";
 import Slider from "../Slider/Slider";
 import FeaturedProduct from "../FeaturedProducts/FeaturedProduct";
 import Categories from "../Categories/Categories";
+import Contact from "../Contact/Contact";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <FeaturedProduct type="Featured" />
       <Categories />
       <FeaturedProduct type="Trending" />
+      <Contact />
     </div>
   )
 };
