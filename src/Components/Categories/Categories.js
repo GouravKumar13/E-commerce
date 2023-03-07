@@ -8,7 +8,7 @@ const Categories = () => {
                 <div className="grid-item">
                     <img src="https://images.unsplash.com/photo-1607083206869-4c7672e72a8a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fGZhc2lvbiUyMHNhbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="" />
                     <button>
-                        <Link className='link' to="/products/1">Sale</Link>
+                        <Link className='link' to="./products/1">Sale</Link>
                     </button>
                 </div>
                 <div className="grid-item"><img src="https://images.unsplash.com/photo-1588117260148-b47818741c74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZmFzaW9uJTIwd29tZW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="" />
